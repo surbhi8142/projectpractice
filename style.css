@@ -1,0 +1,14 @@
+.blue{
+    color: blue;
+    font-weight:600;
+}
+.container{
+  background: lightgrey;
+  margin: auto;
+  padding:auto;
+}
+
+.text-right{
+  color:red;
+  font-weight: bold;
+}
