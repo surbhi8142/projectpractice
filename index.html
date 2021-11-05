@@ -11,22 +11,29 @@
 </head>
 
 <body>
-	<h1 class="blue">Task List</h1><br><br>
-    <h3> New Task</h3>
+	<div class="heading1">
+	<h1 class="blue">Task Management</h1><br><br>
+    </div>
+    <div class="heading2">
+                <h3>New Task</h3>
+                </div>
     <br><br>
-    <!-- form bootstrap-->
-    <div class="container w-75">
+
+    <!-- form code from  bootstrap -->
+
+
+
+    <div class="container-fluid">
+      <div class="container bigPadding">
       <div class="row">
-        <div class="column">
-          <form>
-    <div class="form-row">
-    
-  </div>
+        <div class="col">
+     
+  <form>
   <div class="form-group">
-    <label for="inputname">Name:</label>
+       <label for="inputname">Name:</label>
     <input type="text" class="form-control" id="inputname" placeholder="">
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group">
     <label for="desc">Descriptions</label>
   <textarea class="form-control" id="desc" rows="3"></textarea>
   </div>
@@ -69,35 +76,68 @@
     <br><br><br>
 
     
-                <h2>Tasks</h2>
+                <div class="heading2">
+                <h3>Task List</h3>
+                </div>
                 
 
-    <!-- using bootstrap card -->
+    
+<div class="card-deck w-70 p-3">
+  <div class="card">
+    
+    <div class="card-body">
+      <h5 class="card-title">Task-1</h5>
+                          <p class="card-text">Lafondia</p>
+                    <p class="card-text">Due Date: Nov 20 - 2021</p>
+                    <span class="badge badge-danger float-right">Complete</span>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
+  <div class="card">
+ 
+    <div class="card-body">
+      <h5 class="card-title">Task-2</h5>
+      <p class="card-text">Radha</p>
+                    <p class="card-text">Due Date: Nov 22 - 2021</p>
+                    <span class="badge badge-danger float-right">IN PROGRESS</span>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
+  <div class="card">
+  
+    <div class="card-body">
+      <h5 class="card-title">Task-3</h5>
+      <p class="card-text">Krystal</p>
+                    <p class="card-text">Due Date: Nov 25 - 2021</p>
+                    <span class="badge badge-danger float-right">IN PROGRESS</span>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
+</div>
+<div class="card-deck w-70 p-3">
+  <div class="card">
+   
+    <div class="card-body">
+      <h5 class="card-title">Task-4</h5>
+      <p class="card-text">Erica</p>
+                    <p class="card-text">Due Date: Dec 4 - 2021</p>
+                    <span class="badge badge-danger float-right">IN PROGRESS</span>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
+  <div class="card">
+    
+    <div class="card-body">
+      <h5 class="card-title">Task-5</h5>
+      <p class="card-text">Ramona</p>
+                    <p class="card-text">Due Date: Nov 23 - 2021</p>
+                    <span class="badge badge-danger float-right">IN PROGRESS</span>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+  </div>
+  
+</div>
 
-  <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Final Project</h5>
-        <p class="text-right"> TO DO</P>
-        <p class="card-text">Assign to:</p>
-
-         <div class="form-group col-md-6">
-           <input type="text" class="form-control" id="assignto" >
-         </div>
-        <br/><br/>
-      </div> 
-
-
-      
-
-      
-
-       <div class="col-md-12 text-right">
-        <a href="#" class="btn
-         btn-primary" >Mark As Done</a>
-        <a href="#" class="btn btn-primary">Delete</a>
-      </div>
 
     </div>
 
